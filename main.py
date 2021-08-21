@@ -5,7 +5,7 @@ import cv2
 # 戻り値 : 行(高さ) x 列(幅) x 色の三次元配列(numpy.ndarray)が返される。
 img = cv2.imread('./input.jpg')
 
-# 画像の形状を返す。
+# shape : 画像の形状を返す。
 # (列数, 行数, チャンネル数)
 # チャンネル数とは? : http://www.cg-ya.net/2dcg/aboutimage/basic-knowledge-degitalimage/
 # (例) : (382, 640, 3)

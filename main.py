@@ -11,7 +11,7 @@ img = cv2.imread('./input.jpg')
 # (例) : (382, 640, 3)
 print(img.shape)
 
-# 三次元行列を返す。
+# 三次元配列を返す。
 # (例)
 # [
 # [

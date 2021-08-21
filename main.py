@@ -32,7 +32,7 @@ print(img.shape)
 # ]
 # [34 51 40], [50 81 60]などは、色の状態(BGR)を表します。
 # ※ 左からBGR[B, G, R]形式を表しています。左からRGB[R, G, B]形式でないことをご注意ください。
-# BGRに関する公式ドキュメント : https://docs.opencv.org/4.5.2/d4/da8/group__imgcodecs.html
+# BGRに関する公式ドキュメント : https://docs.opencv.org/4.5.2/d4/da8/group__imgcodecs.html#ga288b8b3da0892bd651fce07b3bbd3a56
 print(img)
 
 # 色の状態(BGR)のBの部分を255(白色)にする。

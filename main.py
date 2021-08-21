@@ -7,7 +7,7 @@ img = cv2.imread('./input.jpg')
 
 # shape : 画像の形状を返す。
 # (列数, 行数, チャンネル数)
-# チャンネル数とは? : http://www.cg-ya.net/2dcg/aboutimage/basic-knowledge-degitalimage/
+# チャンネルとは? : http://www.cg-ya.net/2dcg/aboutimage/basic-knowledge-degitalimage/
 # (例) : (382, 640, 3)
 print(img.shape)
 

@@ -40,7 +40,8 @@ print(img)
 # 参考 -> https://qiita.com/ken_yoshi/items/4cbe3abb7d46c5252fdd
 img[:, :, (0)] = 255
 
-# imwrite : 画像の書き出しを行う関数
-# 第一引数 : 書き出し先の画像ファイル名
-# 第二引数 : 画像情報
+# imwrite : 画像の保存を行う関数
+# imwriteについて : https://kuroro.blog/python/i0tNE1Mp8aEz8Z7n6Ggg/
+# 第一引数 : 保存先の画像ファイル名
+# 第二引数 : 多次元配列(numpy.ndarray)
 cv2.imwrite('./output.jpg', img)
